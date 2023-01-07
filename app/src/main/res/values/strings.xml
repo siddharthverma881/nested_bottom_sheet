@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="emi_one_price"><b>₹4,247</b></string>
+    <string name="emi_one_price_light">₹4,247 / mo</string>
+    <string name="emi_two_price"><b>₹5,580</b></string>
+    <string name="home_amount_selector">"@ 1.04% monthly"</string>
+    <string name="main_title">Siddharth, how much do you need?</string>
+    <string name="main_msg">move the dial and set any amount you need</string>
+    <string name="credit_amount">credit amount</string>
+    <string name="credit_value">₹1,50,000</string>
+    <string name="main_selector_msg">money will be credited within seconds.</string>
+    <string name="sheet_one_title">how do you wish to repay?</string>
+    <string name="sheet_one_msg">choose one of the recommended plans or make your own</string>
+    <string name="per_month">" / mo"</string>
+    <string name="twelve_months">for 12 months</string>
+    <string name="twelve_months_two">12 months</string>
+    <string name="nine_months">for 9 months</string>
+    <string name="calculations">See calculations</string>
+    <string name="create_plan">Create your own plan</string>
+    <string name="emi">EMI</string>
+    <string name="duration">duration</string>
+    <string name="emi_selection">Proceed to EMI selection</string>
+    <string name="sheet_two_title">where should we send the money?</string>
+    <string name="sheet_two_msg">amount will be credited to this bank account, EMI will also be debited from this bank account</string>
+    <string name="bank_name">HDFC Bank</string>
+    <string name="bank_acc_no">50100117009192</string>
+    <string name="change_account">Change account</string>
+    <string name="select_bank">Select your bank account</string>
+    <string name="kyc_msg">Tap for 1-click KYC</string>
+</resources>

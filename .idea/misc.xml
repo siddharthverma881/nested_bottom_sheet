@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bg_amont_selector.xml" value="0.146" />
+        <entry key="app/src/main/res/drawable/bg_circle.xml" value="0.146" />
+        <entry key="app/src/main/res/drawable/bg_emi_one.xml" value="0.146" />
+        <entry key="app/src/main/res/drawable/bg_emi_two.xml" value="0.146" />
+        <entry key="app/src/main/res/drawable/bg_home_rounded.xml" value="0.146" />
+        <entry key="app/src/main/res/drawable/bg_rounded_corners.xml" value="0.17036132812500002" />
+        <entry key="app/src/main/res/drawable/bg_rounded_sheet.xml" value="0.146" />
+        <entry key="app/src/main/res/drawable/bg_sheet_background.xml" value="0.146" />
+        <entry key="app/src/main/res/drawable/bg_sheet_expanded.xml" value="0.146" />
+        <entry key="app/src/main/res/drawable/ic_bank.xml" value="0.146" />
+        <entry key="app/src/main/res/drawable/ic_cancel.xml" value="0.146" />
+        <entry key="app/src/main/res/drawable/ic_cancel2.xml" value="0.146" />
+        <entry key="app/src/main/res/drawable/ic_check_circle.xml" value="0.146" />
+        <entry key="app/src/main/res/drawable/ic_check_circle_2.xml" value="0.146" />
+        <entry key="app/src/main/res/drawable/ic_down.xml" value="0.146" />
+        <entry key="app/src/main/res/drawable/ic_question.xml" value="0.146" />
+        <entry key="app/src/main/res/drawable/ic_question2.xml" value="0.146" />
+        <entry key="app/src/main/res/drawable/ic_question3.xml" value="0.146" />
+        <entry key="app/src/main/res/drawable/ic_tick.xml" value="0.146" />
+        <entry key="app/src/main/res/drawable/ic_unselected.xml" value="0.146" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/bottom_sheet_1.xml" value="0.418212478920742" />
+        <entry key="app/src/main/res/layout/bottom_sheet_2.xml" value="0.3054187192118227" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

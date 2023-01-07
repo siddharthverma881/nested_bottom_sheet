@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintRoot"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_sheet_collapsed">
+
+    <RelativeLayout
+        android:id="@+id/rlSheetOne"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/llOneExpanded"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/sheet_one_title"
+                android:textSize="18sp"
+                android:letterSpacing="0.06"
+                android:textColor="#171b54"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/sheet_one_msg"
+                android:textSize="12sp"
+                android:textColor="@color/grey"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="40dp"
+                android:weightSum="2">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_emi_one">
+
+                    <ImageView
+                        android:id="@+id/image_selected"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_check_circle"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"/>
+
+                    <TextView
+                        android:id="@+id/tvPriceOne"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/emi_one_price"
+                        android:layout_below="@id/image_selected"
+                        android:textColor="@color/black"
+                        android:paddingStart="15dp"
+                        android:textSize="15sp"
+                        android:paddingTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/per_month"
+                        android:layout_below="@id/image_selected"
+                        android:layout_toEndOf="@id/tvPriceOne"
+                        android:textColor="#876478"
+                        android:textSize="13sp"
+                        android:paddingVertical="10dp"/>
+
+
+                    <TextView
+                        android:id="@+id/tv12Months"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/twelve_months"
+                        android:layout_below="@id/tvPriceOne"
+                        android:textSize="11sp"
+                        android:paddingStart="15dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/calculations"
+                        android:layout_below="@id/tv12Months"
+                        android:textColor="#876478"
+                        android:textSize="11sp"
+                        android:paddingTop="10dp"
+                        android:paddingStart="15dp"
+                        android:paddingBottom="10dp"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_emi_two"
+                    android:layout_marginStart="15dp">
+
+                    <ImageView
+                        android:id="@+id/image_selected_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_unselected"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"/>
+
+                    <TextView
+                        android:id="@+id/tvPriceTwo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/emi_two_price"
+                        android:layout_below="@id/image_selected_2"
+                        android:textColor="@color/black"
+                        android:paddingStart="15dp"
+                        android:textSize="15sp"
+                        android:paddingTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/per_month"
+                        android:layout_below="@id/image_selected_2"
+
+                        android:layout_toEndOf="@id/tvPriceTwo"
+                        android:textColor="#524078"
+                        android:textSize="13sp"
+                        android:paddingVertical="10dp"/>
+
+                    <TextView
+                        android:id="@+id/tv9Months"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nine_months"
+                        android:layout_below="@id/tvPriceTwo"
+                        android:textSize="11sp"
+                        android:paddingStart="15dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/calculations"
+                        android:layout_below="@id/tv9Months"
+                        android:textColor="#524078"
+                        android:textSize="11sp"
+                        android:paddingTop="10dp"
+                        android:paddingStart="15dp"
+                        android:paddingBottom="10dp"/>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_plan"
+                android:background="@drawable/bg_rounded_corners"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:paddingVertical="10dp"
+                android:paddingHorizontal="10dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rlOneCollapsed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvEmiLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emi"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="30dp"
+                android:textSize="10sp"
+                android:textColor="@color/light_grey"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emi_one_price_light"
+                android:layout_below="@id/tvEmiLabel"
+                android:layout_marginStart="30dp"
+                android:textSize="16sp"
+                android:textColor="@color/light_grey"/>
+
+            <TextView
+                android:id="@+id/tvDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/duration"
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="10sp"
+                android:textColor="@color/light_grey"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/twelve_months_two"
+                android:layout_below="@id/tvDuration"
+                android:layout_marginStart="30dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="16sp"
+                android:textColor="@color/light_grey"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_down"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvEmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/emi_selection"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/sheet_text_color"
+        android:paddingVertical="20dp"/>
+
+    <FrameLayout
+        android:id="@+id/frame_sheet_two"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:visibility="visible"
+        app:behavior_hideable="false"
+        app:behavior_peekHeight="60dp"
+        app:layout_behavior="com.example.demo.DragLockBottomSheetBehavior">
+
+        <include layout="@layout/bottom_sheet_2" />
+
+    </FrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
